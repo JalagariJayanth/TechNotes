@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://technotes-api.onrender.com",
+  baseURL: "https://technotes-api-i2dz.onrender.com",
 });
 
 axiosInstance.interceptors.request.use(
